@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
         <div className="exercise" data-number="1" data-title="<Blob />">
-            <Blob />
+            <Blob showLogo={true} />
         </div>
         <div className="exercise" data-number="2" data-title="<Hide />">
             <Hide />
